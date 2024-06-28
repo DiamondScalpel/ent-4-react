@@ -4,7 +4,12 @@
     border: 2px solid;
     padding: 20px;
     border-radius: 5px;
+    transition: transform .5s;
 }
+.user:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+  }
 .user__name {
     margin-bottom: 10px;
     text-align: center;
